@@ -9,7 +9,7 @@ const IndexPage = () => {
     query {
       site {
         siteMetadata {
-          title
+          key
         }
       }
     }
