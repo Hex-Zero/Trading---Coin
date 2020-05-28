@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "PORT=1992 rect-scripts start, node ../WebSocket/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hex Zero",
