@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=1992 rect-scripts start, node ../WebSocket/index.js",
+    "start": " set PORT=1992 && react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hex Zero",
@@ -14,6 +14,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
+    "webpack": "^4.43.0",
     "websocket": "^1.0.31"
   }
 }
