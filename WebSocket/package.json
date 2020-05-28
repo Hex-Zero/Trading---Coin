@@ -9,6 +9,7 @@
   "author": "Hex Zero",
   "license": "ISC",
   "dependencies": {
+    "guid": "0.0.12",
     "http": "0.0.1-security",
     "websocket": "^1.0.31"
   }

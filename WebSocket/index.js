@@ -9,3 +9,9 @@ console.log("listenting: 8000")
 const wsServer = new webSocketServer({
   httpServer: server,
 })
+
+const clients = {}
+
+wsServer.on("request", function (request) {
+  var userID = getUniqueID()
+})
