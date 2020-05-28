@@ -1,18 +1,18 @@
 {
-  "name": "websocket-coin",
+  "name": "websocketclient",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hex Zero",
   "license": "ISC",
   "dependencies": {
-    "guid": "0.0.12",
-    "http": "0.0.1-security",
+    "antd": "^4.2.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1",
     "websocket": "^1.0.31"
   }
 }
