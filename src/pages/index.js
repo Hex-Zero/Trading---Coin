@@ -1,13 +1,12 @@
-import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
-
+import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      site {
+      site 
         siteMetadata {
           key
         }
